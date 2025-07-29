@@ -6,7 +6,7 @@ import sqlite3
 ''' Check les évènements d'alertes et lorsqu'il ya une erreur corespondant a un 
  bourrage, ou "printer offline" envoies une alerte
  Gestion centralisée des alertes et notifications.
- Enrégistre les évenements d'alertes dans un fichier log qui sera envoyé 
+ Enrégistre les évenements d'alertes dans la table alerte de la BD qui sera envoyé 
  en fin de journée '''
 
 
